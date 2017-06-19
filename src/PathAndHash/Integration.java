@@ -18,7 +18,7 @@ public class Integration {
 
     }
     
-    //Part 4 of the challenge. Integrate all the code of the previous challenges. Test code has been created for this class
+    //Integrate all the code of the previous challenges. Test code has been created for this class
     public static void integration(int number_zeros, int start_x, int start_y, int end_x, int end_y, String directory) {
         Graph p2 = new Graph();
         HashMap<Coords, String> map = p2.parsing(directory);
